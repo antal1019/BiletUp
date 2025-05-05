@@ -90,17 +90,7 @@ require_once "includes/header.php";
                 </div>
 
                 <!-- Event Location -->
-                <div class="card">
-                    <div class="card-header bg-white">
-                        <h4 class="mb-0">Locație</h4>
-                    </div>
-                    <div class="card-body">
-                        <p><i class="bi bi-geo-alt-fill text-primary me-2"></i> <?php echo $event['locatie']; ?>, <?php echo $event['oras']; ?></p>
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8284740699856!2d26.102433515525247!3d44.43635297910213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4170d6c1a1%3A0x4075b01fcd65370!2sSala%20Palatului!5e0!3m2!1sen!2sro!4v1650000000000!5m2!1sen!2sro" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             
             <!-- Right Column - Ticket Info -->

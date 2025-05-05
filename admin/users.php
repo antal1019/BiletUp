@@ -82,12 +82,7 @@ $page_title = "Administrare Utilizatori";
                     <li class="nav-item">
                         <a class="nav-link active" href="users.php">Utilizatori</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="categories.php">Categorii</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tickets.php">Bilete</a>
-                    </li>
+                
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">

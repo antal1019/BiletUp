@@ -135,13 +135,7 @@ $page_title = "Dashboard";
                     <li class="nav-item">
                         <a class="nav-link" href="users.php">Utilizatori</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="categories.php">Categorii</a>
-                    </li>
                     <?php endif; ?>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tickets.php">Bilete</a>
-                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">

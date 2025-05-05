@@ -11,19 +11,18 @@ $categories = getCategories();
 
 <!-- Hero Section -->
 <section class="hero-section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8 text-center">
-                <h1>Găsește și cumpără bilete la cele mai tari evenimente</h1>
-                <p class="lead mb-4">Concerte, festivaluri, teatru, sport și multe altele - toate într-un singur loc</p>
-                <a href="events.php" class="btn btn-primary btn-lg">Vezi toate evenimentele</a>
-            </div>
-        </div>
+    <!-- Adaugă această linie pentru watermark -->
+    <div class="hero-watermark">BiletUP</div>
+    
+    <div class="hero-content">
+        <h1>Găsește și cumpără bilete la cele mai tari evenimente</h1>
+        <p class="lead">Concerte, festivaluri, teatru, sport și multe altele - toate într-un singur loc</p>
+        <a href="events.php" class="btn btn-primary btn-lg">VEZI TOATE EVENIMENTELE</a>
     </div>
 </section>
 
 <!-- Categorii Section -->
-<section class="py-5">
+<section class="categories-section py-5">
     <div class="container">
         <div class="row mb-4">
             <div class="col-12">
@@ -36,7 +35,7 @@ $categories = getCategories();
             <div class="col-md-4 mb-4">
                 <a href="events.php?categorie=<?php echo $category['id']; ?>" class="text-decoration-none">
                     <div class="category-box">
-                        <img src="images/categories/<?php echo strtolower(str_replace(' ', '-', $category['nume'])); ?>.jpg" alt="<?php echo $category['nume']; ?>" onerror="this.src='images/placeholder.jpg'">
+                        <img src="images/<?php echo strtolower(str_replace(' ', '-', $category['nume'])); ?>.jpg" alt="<?php echo $category['nume']; ?>" onerror="this.src='images/placeholder.jpg'">
                         <div class="category-overlay">
                             <h5 class="category-name"><?php echo $category['nume']; ?></h5>
                         </div>
