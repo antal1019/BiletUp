@@ -1,0 +1,35 @@
+# Composer
+/vendor/
+composer.lock
+
+# Fișiere temporare
+/temp/
+*.tmp
+
+# Configurări locale
+/config/local.php
+.env
+
+# Logs
+*.log
+
+# Cache
+cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
